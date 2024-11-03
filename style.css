@@ -6,4 +6,19 @@ table{
     font-size: 22px;
     text-align: center;
     margin: auto;
+    border: 2px solid rgb(139, 21, 31);
+    border-collapse: collapse;
+    width: 60%;
+    font-weight: bold;
+}
+table tr,td{
+    padding: 5px;
+    border: 2px solid rgb(139, 21, 31);
+}
+table a{
+    text-decoration: none;
+    color: rgb(139, 21, 31);
+}
+table a:hover{
+    color: rgb(69, 56, 189);
 }
