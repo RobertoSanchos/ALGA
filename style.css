@@ -1,3 +1,9 @@
 body{
-    background-color: blanchedalmond;
+    background-color: rgb(236, 222, 203);
+    color: rgb(139, 21, 31);
+}
+table{
+    font-size: 22px;
+    text-align: center;
+    margin: auto;
 }
