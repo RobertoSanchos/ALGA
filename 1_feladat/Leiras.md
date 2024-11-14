@@ -19,7 +19,7 @@ Ha egy vásárló nem tud jegyet vásárolni, akkor a -1 legyen kiíratva.
 ***
 1 <= <i>n, m </i><= 2 · 10 <sup>5</sup> <br>
 1 <= <i>h<sub>i</sub>, t<sub>i</sub></i> <= 10<sup>9 </sup>
-
+$n^2 \le$
 * #### Minta
 ***
 Bemenet: <br> 5 3 <br>5 3 7 8 5 <br> 4 8 3 <br><br> Kimenet: <br> 3<br> 8 <br> -1
