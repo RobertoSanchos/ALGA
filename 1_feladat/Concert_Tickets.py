@@ -1,22 +1,21 @@
-mo = list(map(int, input().split(" ")))
-tomb1 = sorted(list(map(int, input().split())), reverse=True)
+m, n = map(int, input().split(" "))
+tomb1 = list(map(int, input().split()))
 tomb2 = list(map(int, input().split(" ")))
 
+tomb1.sort(reverse=True)
 
-megoldas = []
 i = 0
 j = 0
 
-while i < mo[1] and j < len(tomb1):
-    if tomb2[i] - tomb1[j] >= 0:
-        megoldas.append(tomb1[j])
-        del tomb1[j]
+while i < n and j < m:
+    if tomb2[i] - tomb1[j] >= 0 and tomb1[j] != 0:
+        print(tomb1[j])
+        tomb1[j] = 0
         i += 1
         j = 0
         continue
     j += 1
 
-megoldas.extend(((len(tomb2) - i) * [-1]))
-
-for i in range(len(megoldas)):
-    print(megoldas[i])
+while i != len(tomb2):
+    print(-1)
+    i += 1
