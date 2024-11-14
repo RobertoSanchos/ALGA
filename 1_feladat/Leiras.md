@@ -1,7 +1,7 @@
 # <p align = "center"><u>1.feladat</u> <br> 
 ## <p align = "center">Keresés, rendezés, mohó stratégia
 ### <p align = "center">Concert Tickets
-#### <p align = "center"> [feladat](https://cses.fi/problemset/task/1091)
+#### <p align = "center"> [feladat link](https://cses.fi/problemset/task/1091)
 
 ### Feladat leírás
 ***

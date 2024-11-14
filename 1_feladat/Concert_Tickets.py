@@ -1,11 +1,10 @@
-m, n = map(int, input().split(" "))
+m, n = map(int, input().split())
 tomb1 = list(map(int, input().split()))
-tomb2 = list(map(int, input().split(" ")))
+tomb2 = list(map(int, input().split()))
 
 tomb1.sort(reverse=True)
 
-i = 0
-j = 0
+i, j = 0, 0
 
 while i < n and j < m:
     if tomb2[i] - tomb1[j] >= 0 and tomb1[j] != 0:
