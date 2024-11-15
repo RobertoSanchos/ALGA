@@ -63,4 +63,4 @@ else:
     for i in range(len(megoldas)):
         print(megoldas[i], end=" ")
 ```
-Az utolsó lépésben ellenőrizzük, hogy sikerült-e megtalálni a 2 db indexet, ha nem akkor kiírjuk, hogy "IMPOSSIBLE", egyébként pedig kiíratjuk a lista elemeit.
+Az utolsó lépésben ellenőrizzük, hogy sikerült-e megtalálni a 2 db indexet, ha nem akkor kiírjuk, hogy "IMPOSSIBLE", egyébként pedig kiíratjuk a lista elemeit ( az indexeket ).
