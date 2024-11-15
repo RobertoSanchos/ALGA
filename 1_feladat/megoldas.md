@@ -23,14 +23,14 @@ tomb.sort(reverse=True)
 db = 0
 ```
 
-<u>Adatok beolvasása és értékadás</u>
-s = A tömb mérete
-n = A keresett összeg
-tomb = A tömb értékei
-m = A keresett összeg ( segédváltozóként a for ciklusban )
-tomb2 = A tömb értékei ismét ( index kereséshez )
-megoldas = A lista amibe kerülni fognak az indexek
-db = A megfelelő indexek számolásához
+Adatok beolvasása és értékadás:<br>
+s = A tömb mérete<br>
+n = A keresett összeg<br>
+tomb = A tömb értékei<br>
+m = A keresett összeg ( segédváltozóként a for ciklusban )<br>
+tomb2 = A tömb értékei ismét ( index kereséshez )<br>
+megoldas = A lista amibe kerülni fognak az indexek<br>
+db = A megfelelő indexek számolásához<br><br>
 
 A tomb elemeit csökkenő sorrendbe állítjuk, az optimális keresés miatt.
 
@@ -47,8 +47,8 @@ for i in range(s):
     if db == 2 and n == 0:
         break
 ```
-<u>For Ciklus</u>
-A ciklus a tömb hosszáig megy, és 2 db if-et tartalmaz:
+For Ciklus:<br>
+A ciklus a tömb hosszáig megy, és 2 db if-et tartalmaz:<br>
 
 Az elsőben a tömb elemeit vonogatjuk ki a keresett értékből, amíg nem kapunk 0-át. Ezáltal megkaphatjuk amit keresünk, de közben megkeressük a tomb2 listában az értékhez tartozó indexet, és belerakjuk a megoldasok listába, valamint ezt az indexet 0-ra állítjuk, hogy ne mindig ugyanazzal a számmal térjen vissza. Ezután növelni kell a db értékét, hogy tudjuk hány elemből áll össze.
 
