@@ -1,0 +1,66 @@
+# <p align = "center"><u>1.feladat</u> <br> 
+## <p align = "center">Keresés, rendezés, mohó stratégia
+### <p align = "center">Sum of Two Values
+#### <p align = "center"> [feladat link](https://cses.fi/problemset/task/1640/)
+
+### Feladat megoldásának menete
+***
+ * #### 1.lépés 
+ ***
+``` python
+s, n = map(int, input().split(" "))
+tomb = list(map(int, input().split(" ")))
+
+m = 0
+m += n
+
+tomb2 = []
+tomb2.extend(tomb)
+
+megoldas = []
+
+tomb.sort(reverse=True)
+db = 0
+```
+
+<u>Adatok beolvasása és értékadás</u>
+s = A tömb mérete
+n = A keresett összeg
+tomb = A tömb értékei
+m = A keresett összeg ( segédváltozóként a for ciklusban )
+tomb2 = A tömb értékei ismét ( index kereséshez )
+megoldas = A lista amibe kerülni fognak az indexek
+db = A megfelelő indexek számolásához
+
+A tomb elemeit csökkenő sorrendbe állítjuk, az optimális keresés miatt.
+
+
+* #### 2.lépés 
+***
+``` python
+for i in range(s):
+    if n - tomb[i] >= 0 and tomb[i] != m:
+        n = n - tomb[i]
+        megoldas.append(tomb2.index(tomb[i])+1)
+        tomb2[tomb2.index(tomb[i])] = 0
+        db += 1
+    if db == 2 and n == 0:
+        break
+```
+<u>For Ciklus</u>
+A ciklus a tömb hosszáig megy, és 2 db if-et tartalmaz:
+
+Az elsőben a tömb elemeit vonogatjuk ki a keresett értékből, amíg nem kapunk 0-át. Ezáltal megkaphatjuk amit keresünk, de közben megkeressük a tomb2 listában az értékhez tartozó indexet, és belerakjuk a megoldasok listába, valamint ezt az indexet 0-ra állítjuk, hogy ne mindig ugyanazzal a számmal térjen vissza. Ezután növelni kell a db értékét, hogy tudjuk hány elemből áll össze.
+
+A második if-ben ellenőrizzük, hogy megvan-e a 2 db index, és hogy az ezekhez tartozó értékek 0-át adnak, és ha ez teljsül nem kell tovább keresnünk, kilépünk a ciklusból.
+
+* #### 3.lépés 
+***
+``` python
+if n != 0 or db != 2:
+    print("IMPOSSIBLE")
+else:
+    for i in range(len(megoldas)):
+        print(megoldas[i], end=" ")
+```
+Az utolsó lépésben ellenőrizzük, hogy sikerült-e megtalálni a 2 db indexet, ha nem akkor kiírjuk, hogy "IMPOSSIBLE", egyébként pedig kiíratjuk a lista elemeit.

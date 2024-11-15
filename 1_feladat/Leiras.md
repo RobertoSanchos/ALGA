@@ -1,29 +1,30 @@
 # <p align = "center"><u>1.feladat</u> <br> 
 ## <p align = "center">Keresés, rendezés, mohó stratégia
-### <p align = "center">Concert Tickets
-#### <p align = "center"> [feladat link](https://cses.fi/problemset/task/1091)
+### <p align = "center">Sum of Two Values
+#### <p align = "center"> [feladat link](https://cses.fi/problemset/task/1640/)
 
 ### Feladat leírás
 ***
 
- Van <i>n</i> koncertjegy, mindegyiknek egy bizonyos ára van. Ezután érkeznek meg az <i>m</i> vásárlók egymás után. Minden vásárló bejelenti, hogy mennyi a maximális ár, amit hajlandó kifizetni egy jegyért, majd ezután kap egy jegyet a lehető legközelebbi áron, amely nem haladja meg a maximális árat.
+Kapunk egy n számokból álló tömböt, és a feladatunk két értéket találni (különböző helyeken), melyek összege <i>x</i>.
 
  * #### Bemenet 
  ***
- Az első sorban egész számokat tartalmazó <i>n</i> és <i>m</i>, a jegyek és a vásárlók száma. A következő sorban <i>n</i> egész szám található: <i>h<sub>1</sub>, h<sub>2</sub>,...,h<sub>n</sub></i>: a jegyek árai. Az utolsó sorban <i>m</i> egész szám található: <i>t<sub>1</sub>, t<sub>2</sub>,...,t<sub>m</sub></i>: a vásárlókhoz tartozó maximális árak a sorrendjükben, ahogy érkeznek.
+ Az első sor két számot tartalmaz: <i>n</i> és <i>x</i> a tömb mérete és a célszám.
+ A második sor <i>n</i> db egész számot tartalmaz: $a_1,a_2,...,a_n:$ a tömb értékeit.
 
 * #### Kimenet
 ***
-Azt az árat kell kiírni minden vásárló számára, amit egy jegyért fog fizetni, és ezután a jegyet nem lehet újra megvásárolni. 
-Ha egy vásárló nem tud jegyet vásárolni, akkor a -1 legyen kiíratva.
+
+Írasd ki a talált értékek pozícióit. Több megoldás is lehetséges, ilyen esetben bármelyiket kiírhatod, és ha nincs megoldás, akkor az IMPOSSIBLE legyen kiírva. 
 
 * #### Korlátok
 ***
-$1 \le n, m \le 2 \cdot 10^5$<br>
-$1 \le h_i, t_i \le 10^9$
+$1\le n \le 2 \cdot 10^5$<br>
+$1\le x,a_i \le 10^9$
 
 * #### Minta
 ***
-Bemenet: <br> 5 3 <br>5 3 7 8 5 <br> 4 8 3 <br><br> Kimenet: <br> 3<br> 8 <br> -1
+Bemenet: <br> 4 8<br>2 7 5 1 <br><br> Kimenet: <br> 2 4
 
 
