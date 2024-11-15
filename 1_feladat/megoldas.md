@@ -50,7 +50,7 @@ for i in range(s):
 For Ciklus:<br>
 A ciklus a tömb hosszáig megy, és 2 db if-et tartalmaz:<br>
 
-Az elsőben a tömb elemeit vonogatjuk ki a keresett értékből, amíg nem kapunk 0-át. Ezáltal megkaphatjuk amit keresünk, de közben megkeressük a tomb2 listában az értékhez tartozó indexet, és belerakjuk a megoldasok listába, valamint ezt az indexet 0-ra állítjuk, hogy ne mindig ugyanazzal a számmal térjen vissza. Ezután növelni kell a db értékét, hogy tudjuk hány elemből áll össze.
+Az elsőben a tömb elemeit vonogatjuk ki a keresett értékből, amíg nem kapunk 0-át. Ezáltal megkaphatjuk amit keresünk, de közben megkeressük a tomb2 listában az értékhez tartozó indexet, és belerakjuk a megoldasok listába, valamint az ehez tartozó értéket 0-ra állítjuk, hogy ne mindig ugyanazzal az indexxel térjen vissza több egyforma szám esetén. Ezután növelni kell a db értékét, hogy tudjuk hány elemből áll össze.
 
 A második if-ben ellenőrizzük, hogy megvan-e a 2 db index, és hogy az ezekhez tartozó értékek 0-át adnak, és ha ez teljsül nem kell tovább keresnünk, kilépünk a ciklusból.
 
