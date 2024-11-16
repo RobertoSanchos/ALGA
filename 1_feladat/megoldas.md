@@ -54,7 +54,7 @@ amíg nem kapunk 0-át ( csakis 2 szám összegéből jöhet össze,
 így <i>m</i> nem lehet a tömb értéke ), mert ezáltal megkaphatjuk az eredeti <i>n</i>-t, 
 de közben megkeressük a tomb2 listában ( eredeti rendezetlen tömb ) 
 az értékhez tartozó indexet, és belerakjuk a megoldasok listába, 
-valamint az ehez tartozó értéket 0-ra állítjuk, hogy ne mindig 
+valamint az ehez tartozó értéket 0-ra ( Korlátok! ) állítjuk, hogy ne mindig 
 ugyanazzal az indexxel térjen vissza több egyforma szám esetén. 
 Ezután növelni kell a db értékét, hogy tudjuk hány elemből 
 áll össze.
