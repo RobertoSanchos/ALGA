@@ -26,7 +26,7 @@ db = 0
 Adatok beolvasása és értékadás:<br>
 s = A tömb mérete<br>
 n = A keresett összeg<br>
-tomb = A tömb értékei<br>
+tomb = A tömb értékei ( listaként )<br>
 m = A keresett összeg ( segédváltozóként )<br>
 tomb2 = A tömb értékei ismét ( index kereséshez )<br>
 megoldas = A lista amibe kerülni fognak az indexek<br>
