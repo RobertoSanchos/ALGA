@@ -58,8 +58,7 @@ valamint az ehez tartozó értéket 0-ra állítjuk, hogy ne mindig
 ugyanazzal az indexxel térjen vissza több egyforma szám esetén. 
 Ezután növelni kell a db értékét, hogy tudjuk hány elemből 
 áll össze.
-2. Ellenőrizzük, hogy pontosan 2 db értékből jön ki a keresett összeg. 
-Ha ez teljesül nem kell tovább keresnünk, kilépünk a ciklusból.
+2. Ellenőrizzük, hogy pontosan 2 db értékből jön ki a keresett összeg, és ha ez teljesül kilépünk a ciklusból.
 
 * #### 3.lépés 
 ***
