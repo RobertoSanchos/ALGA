@@ -32,7 +32,7 @@ tomb2 = A tömb értékei ismét ( index kereséshez )<br>
 megoldas = A lista amibe kerülni fognak az indexek<br>
 db = A megfelelő indexek számolásához<br><br>
 
-A tomb elemeit csökkenő sorrendbe állítjuk, az optimális keresés miatt.
+A tomb elemeit csökkenő sorrendbe állítjuk ( mohó ).
 
 
 * #### 2.lépés 
