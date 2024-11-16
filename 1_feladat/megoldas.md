@@ -48,11 +48,11 @@ for i in range(s):
         break
 ```
 For Ciklus:<br>
-A ciklus a tömb hosszáig megy, és 2 db if-et tartalmaz:<br>
+A ciklus a tömb hosszáig megy, és 2 db feltételt tartalmaz:<br>
 
-Az elsőben a tömb elemeit vonogatjuk ki a keresett értékből, amíg nem kapunk 0-át. Ezáltal megkaphatjuk amit keresünk, de közben megkeressük a tomb2 listában ( eredeti rendezetlen tömb ) az értékhez tartozó indexet , és belerakjuk a megoldasok listába, valamint az ehez tartozó értéket 0-ra állítjuk, hogy ne mindig ugyanazzal az indexxel térjen vissza több egyforma szám esetén. Ezután növelni kell a db értékét, hogy tudjuk hány elemből áll össze.
+1: A tömb elemeit vonjuk ki a keresett összegből, amíg nem kapunk 0-át, mert ezáltal megkaphatjuk azt, de közben megkeressük a tomb2 listában ( eredeti rendezetlen tömb ) az értékhez tartozó indexet, és belerakjuk a megoldasok listába, valamint az ehez tartozó értéket 0-ra állítjuk, hogy ne mindig ugyanazzal az indexxel térjen vissza több egyforma szám esetén. Ezután növelni kell a db értékét, hogy tudjuk hány elemből áll össze ( 2 db kell számunkra ).
 
-A második if-ben ellenőrizzük, hogy megvan-e a 2 db index, és hogy az ezekhez tartozó értékek megadják a keresett összeget. Ha ez teljesül nem kell tovább keresnünk, kilépünk a ciklusból.
+2: Ellenőrizzük, hogy pontosan 2 db értékből jön ki a keresett összeg. Ha ez teljesül nem kell tovább keresnünk, kilépünk a ciklusból.
 
 * #### 3.lépés 
 ***
