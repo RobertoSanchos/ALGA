@@ -50,17 +50,17 @@ for i in range(s):
 For Ciklus:<br>
 A ciklus a tömb hosszáig megy, és 2 db feltételt tartalmaz:<br>
 
-1: A tömb elemeit vonjuk ki a keresett összegből, 
+1. A tömb elemeit vonjuk ki a keresett összegből, 
 amíg nem kapunk 0-át ( csakis 2 szám összegéből jöhet össze, 
-így <i>m</i> nem lehet a tömb értéke ), mert ezáltal megkaphatjuk az <i>n</i>-t, 
+így <i>m</i> nem lehet a tömb értéke ), mert ezáltal megkaphatjuk az eredeti <i>n</i>-t, 
 de közben megkeressük a tomb2 listában ( eredeti rendezetlen tömb ) 
 az értékhez tartozó indexet, és belerakjuk a megoldasok listába, 
 valamint az ehez tartozó értéket 0-ra állítjuk, hogy ne mindig 
 ugyanazzal az indexxel térjen vissza több egyforma szám esetén. 
 Ezután növelni kell a db értékét, hogy tudjuk hány elemből 
 áll össze.
-
-2: Ellenőrizzük, hogy pontosan 2 db értékből jön ki a keresett összeg. 
+<br>
+2. Ellenőrizzük, hogy pontosan 2 db értékből jön ki a keresett összeg. 
 Ha ez teljesül nem kell tovább keresnünk, kilépünk a ciklusból.
 
 * #### 3.lépés 
