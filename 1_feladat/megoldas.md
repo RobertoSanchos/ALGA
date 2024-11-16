@@ -3,8 +3,8 @@
 ### <p align = "center">Sum of Two Values
 #### <p align = "center"> [feladat link](https://cses.fi/problemset/task/1640/)
 
-### Feladat megoldásának menete
-***
+## <p align = "center">Feladat megoldásának menete
+
  * #### 1.lépés 
  ***
 ``` python

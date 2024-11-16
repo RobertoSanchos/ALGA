@@ -3,8 +3,8 @@
 ### <p align = "center">Sum of Two Values
 #### <p align = "center"> [feladat link](https://cses.fi/problemset/task/1640/)
 
-### Feladat leírás
-***
+## <p align = "center">Feladat leírás
+
 
 Kapunk egy n számokból álló tömböt, és a feladatunk két értéket találni (különböző helyeken), melyek összege <i>x</i>.
 
