@@ -47,8 +47,7 @@ for i in range(s):
     if db == 2 and n == 0:
         break
 ```
-For Ciklus:<br>
-A ciklus a tömb hosszáig megy, és 2 db feltételt tartalmaz:<br>
+For Ciklus ( A tömb hosszáig iterál, és 2 db feltételt tartalmaz ):<br>
 
 1. A tömb elemeit vonjuk ki a keresett összegből, 
 amíg nem kapunk 0-át ( csakis 2 szám összegéből jöhet össze, 
