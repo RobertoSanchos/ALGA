@@ -15,12 +15,12 @@ megoldas = []
 db = 0
 ```
 
-Adatok beolvasása és értékadás:
-**ermekszama** = Ada érméinek száma
-**sorok** = Hány darab tartományt teszteljünk
-**ermek** = Ada érméi
-**tavolsagok** = A tartományok
-**megoldas** = Ebbe a listába fognak kerülni a megadott tartományon belüli kifizethető értékek darabszámai
+Adatok beolvasása és értékadás:<br>
+**ermekszama** = Ada érméinek száma<br>
+**sorok** = Hány darab tartományt teszteljünk<br>
+**ermek** = Ada érméi<br>
+**tavolsagok** = A tartományok<br>
+**megoldas** = Ebbe a listába fognak kerülni a megadott tartományon belüli kifizethető értékek darabszámai<br>
 **db** = Kifizethető értékek számolására
 
 
