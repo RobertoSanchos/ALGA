@@ -63,6 +63,6 @@ for megold in megoldas:
 
 ```
 
-A **tavolsagok** listában benne levő intervallumokon megyünk végig ( egyesével ), és ellenőrizzük a korábban megírt belerakhatoe() függvénnyel, hogy kifizethető-e az érték. Ha igen akkor növeljük a db értékét, amivel nyomon tudjuk követni, hogy eddig hány darabot tudtunk kifizetni. Ha az egyik tartománnyal végeztünk, akkor belerakjuk a megoldas listába a db-ben található értéket, és azután 0-zuk, valamint továbblépünk a következő tartományra. 
+A **tavolsagok** listában benne levő intervallumokon megyünk végig ( egyesével ), és ellenőrizzük a korábban megírt belerakhatoe() függvénnyel, hogy kifizethető-e az érték. Ha igen akkor növeljük a db értékét, amivel nyomon tudjuk követni, hogy eddig hány darabot tudtunk kifizetni. Ha az egyik tartománnyal végeztünk, akkor belerakjuk a megoldas listába a db-ben található értéket, és azután 0-zuk, valamint továbblépünk a következőre. 
 
-A bejárások után kiíratjuk a **megoldas** listában szereplő értékeket, amik megadják a sorban a kifizethető értékek darabszámait.
+A bejárások után kiíratjuk a **megoldas** listában szereplő értékeket, amik megadják sorban a kifizetések darabszámait.
